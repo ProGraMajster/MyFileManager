@@ -94,6 +94,7 @@
             this.Name = "NewFileForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Utwórz nowy plik";
+            this.Load += new System.EventHandler(this.NewFileForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

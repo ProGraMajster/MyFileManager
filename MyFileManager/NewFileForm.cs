@@ -81,6 +81,10 @@ namespace MyFileManager
             return isValid;
         }
 
+        private void NewFileForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
